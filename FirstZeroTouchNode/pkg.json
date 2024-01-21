@@ -1,0 +1,21 @@
+{
+  "license": "MIT",
+  "file_hash": null,
+  "name": "DynamoRevit-RFEM Connector",
+  "version": "1.0.0",
+  "description": "A collection of Dynamo nodes to exchange data between DynamoRevit and RFEM",
+  "group": "",
+  "keywords": [ "DynamoRevit", "RFEM" ],
+  "dependencies": [],
+  "contents": "Zero Touch Nodes - A collection of Dynamo nodes to exchange data between DynamoRevit and RFEM",
+  "engine_version": "2.x",
+  "engine": "DynamoRevit",
+  "engine_metadata": "",
+  "site_url": "",
+  "repository_url": "https://github.com/pierre-wehbi/DynamoRFEM",
+  "contains_binaries": true,
+  "node_libraries": [
+    "FirstZeroTouchNode, Version=1.0.0, Culture=neutral, PublicKeyToken=null",
+    "xxx, Version=1.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

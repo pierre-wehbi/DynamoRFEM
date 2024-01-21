@@ -20,6 +20,9 @@ namespace FirstZeroTouchNode
 {
     public class DlubalRfemNode
     {
+        //Default constructor set to private
+        private DlubalRfemNode() { }
+
         private static Logger logger = LogManager.GetCurrentClassLogger();
         public static string CreateCompleteModel(string modelName, List<string> materialNames)
         {

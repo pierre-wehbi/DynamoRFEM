@@ -69,12 +69,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Grids.cs" />
+    <Compile Include="HelloWorld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DlubalRfemNode.cs" />
     <Compile Include="ZeroTouchEssentials.cs" />
     <Compile Include="SampleFunction.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="pkg.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
