@@ -13,8 +13,8 @@ namespace ZeroTouchEssentials
     public class ZeroTouchEssentials
     {
         /// <summary>
-        ///     An example showing how to return multiple values from a Zero-Touch imported node
-        ///     The names in the attribute should match the keys in the returned dictionary.
+        /// An example showing how to return multiple values from a Zero-Touch imported node
+        /// The names in the attribute should match the keys in the returned dictionary.
         /// </summary>
         /// <param name="a">First number.</param>
         /// <param name="b">Second number.</param>
@@ -26,7 +26,7 @@ namespace ZeroTouchEssentials
         {
             return new Dictionary<string, object>
             {
-                { "add", (a + b) },
+                { "add", (a + b + b) },
                 { "mult", (a * b) }
             };
         }
